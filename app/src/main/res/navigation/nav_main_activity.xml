@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_main_activity"
-    app:startDestination="@id/foodFragment">
+    app:startDestination="@id/todoFragment">
 
     <fragment
         android:id="@+id/loginFragment"
@@ -14,4 +14,8 @@
         android:id="@+id/foodFragment"
         android:name="com.example.figmatasarim.fragments.FoodFragment"
         android:label="FoodFragment" />
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.example.figmatasarim.fragments.TodoFragment"
+        android:label="TodoFragment" />
 </navigation>
